@@ -1,0 +1,397 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.header_img img {
+    top: 34px;
+}
+.header_title {
+        margin-right: -73px;
+  }
+ .about_block {
+    padding-top: 111px;
+}
+.shema_top img {
+    top: -281px;
+    right: -86px;
+}
+.ground_block {
+    margin-top: -97px;
+}
+.pesok {
+    margin-top: -293px;
+}
+.block {
+    margin-right: 30px;
+}
+.glina {
+    margin-top: -192px;
+}
+.water_pesok {
+    margin-right: -48px;
+    margin-top: -79px;
+}
+.water_glina {
+    margin-right: -48px;
+    margin-top: 31px;
+}
+.izvest {
+    margin-right: -182px;
+    margin-top: 143px;
+    margin-bottom: 78px;
+}
+.uslugi {
+    padding-left: 0px;
+    margin-top: -30px;
+    margin-left: -88px;
+}
+video {
+    width: 243px;
+}
+.right {
+    right: 40px;
+}
+.right .years {
+    margin-top: 197px;
+
+}
+}
+
+@media only screen and (max-width : 1110px) {
+.contacts {
+    padding: 35px;
+}
+.header_title {
+    margin-right: -38px;
+}
+.shema_top img {
+    right: -16px;
+}
+.block {
+    margin-right: 100px;
+}
+.water_pesok {
+    margin-right: 17px;
+}
+.water_glina {
+    margin-right: -48px;
+}
+.water_glina {
+    margin-right: 21px;
+}
+.izvest{
+	    margin-right: -179px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .map form {
+        width: 356px;
+}
+.top_phone {
+    font-size: 26px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+.header_title {
+    margin-right: -202px;
+}
+.shema_top img {
+    top: -280px;
+    right: -189px;
+}
+.block {
+    margin-right: -72px;
+}
+.water_pesok {
+    margin-right: -153px;
+    margin-top: -79px;
+}
+.water_glina {
+    margin-right: -151px;
+    margin-top: 31px;
+}
+.uslugi {
+    padding-left: 0px;
+    margin-top: -30px;
+    margin-left: -289px;
+}
+.plus {
+    margin-left: 80px;
+}
+p.no{
+	display:none;
+}
+.right .years {
+    margin-top: 97px;
+}
+.right .bottom_phone {
+
+    margin-top: 63px;
+
+}
+.ground_block {
+    display: none;
+}
+.shema_top img {
+display:none;
+}
+.header_img img {
+    top: -7px;
+}
+.about {
+    background-color: #12171e;
+    color: white;
+    -moz-transform: skewY(0deg);
+    -webkit-transform: skewY(0deg); 
+    transform: skewY(0deg);
+    margin-top: -109px;
+height: 451px;
+}
+.about_block {
+    padding-top: 56px;
+}
+.about .container {
+    -moz-transform: skewY(0deg);
+    -webkit-transform: skewY(0deg);
+    transform: skewY(0deg);
+}
+.uslugi {
+    margin-top: 0;
+    padding-top: 64px;
+}
+
+.header_title {
+    margin-right: -94px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.shema_top img {
+    top: -281px;
+    right: 19px;
+}
+.big_img img{
+	display:none;
+}
+.header_title {
+    margin-right: 37px;
+}
+.block {
+    margin-right: 136px;
+}
+.water_pesok {
+    margin-right: 54px;
+    margin-top: -79px;
+}
+.water_glina {
+    margin-right: 57px;
+    margin-top: 31px;
+}
+.about_block {
+    padding-left: 68px;
+}
+.uslugi {
+    padding-left: 62px;
+    margin-top: -30px;
+    margin-left: 0px;
+}
+.izvest {
+      margin-right: -180px;
+}
+.water_js{
+	max-width:100%;
+}
+.about_block p{
+	max-width:100%;
+}
+.logo{
+	    text-align: center;
+}
+.top_discr{
+	    text-align: center;
+}
+.header_title{
+	    margin-right: 0;
+    text-align: center;
+    float: none;
+    margin-top: 64px;
+}
+.header_title h1{
+	font-size: 45px;
+}
+.about{
+	    height: 349px;
+}
+.about_block{
+	padding-top: 6px;
+}
+
+.usluga {
+    position: initial;
+    text-align: center;
+}
+.big_img span {
+    position: initial;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+.map form {
+    width: 344px;
+}
+.header_img{
+	    display: none;
+}
+.contacts {
+    padding: 19px;
+}
+.header_title {
+    margin-right: 0px;
+}
+.vid{
+	    text-align: center;
+}
+.wrapper{
+	text-align: center;
+}
+.zayavka {
+    padding: 164px 0 33px;
+}
+.map form{
+	    margin: 0 auto;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.header_title{
+   margin-right: 0px; 
+}
+.header_title h1 {
+    font-size: 37px;
+}
+.water_js {
+    width: 434px;
+}
+.zayavka{
+	    margin-top: 35px;
+}
+.vid img {
+width:320px;
+}
+.map form {
+    width: 100%;
+}
+.info_text{
+	display:none;
+}
+.right {
+    position: initial;
+}
+.contacts img {
+    max-width: 100%;
+    display: none;
+}
+.big_img {
+    margin: 22px 60px;
+}
+.about {
+    height: 618px;
+}
+.about p {
+    width: 344px;
+}
+.uslugi {
+    padding-left: 13px;
+    margin-top: -38px;
+}
+}
+
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+.about p {
+    width: 294px;
+}
+.about{
+height: 562px;
+
+}
+.header_title {
+ margin-right: 0px; 
+}
+.header_title span {
+    font-size: 11px;
+}
+.about_block{
+	    padding-left: 0px;
+    height: 474px;
+}.uslugi {
+    padding-left: 0px; 
+}
+.water_js {
+    width: 296px;
+}
+.vid img {
+    width: 295px;
+}
+.plus {
+    margin-left: 51px;
+}
+.map input[type="text"] {
+    width: 94%;
+}
+.right h2 {
+    margin-top: 0px;
+}
+.contacts {
+    padding: 41px;
+
+}
+.header_title h1 {
+    font-size: 35px;
+}
+.top_discr {
+   display:none;
+}
+.wrapper {
+    margin-left: -66px;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
